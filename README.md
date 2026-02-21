@@ -4,12 +4,11 @@
 
 1. โครงสร้าง
 Software-Testing
-│
-├── src/        ( เก็บไฟล์อัลกอริทึม )
-├── tests/      ( เก็บไฟล์ test )
-└── README.md
+- src ( เก็บไฟล์อัลกอริทึม )
+- tests ( เก็บไฟล์ test )
+- README.md
 
-2. โจทย์
+3. โจทย์
 - Alternating Characters :
 หาจำนวนตัวอักษรที่ต้องลบออกเพื่อไม่ให้มีตัวอักษรซ้ำติดกัน
 - Caesar Cipher :
@@ -22,9 +21,9 @@ Software-Testing
 เลือกตัวอักษร 2 ตัวมาสร้าง pattern แบบสลับกัน และหาความยาวสูงสุด
 
 3. วิธีรันโปรแกรมทดสอบ
-ติดตั้ง : pip install pytest pytest-cov
-รัน Unit Test: pytest
-Test Coverage : pytest --cov=src --cov-report=term-missing
+- ติดตั้ง : pip install pytest pytest-cov
+- รัน Unit Test: pytest
+- Test Coverage : pytest --cov=src --cov-report=term-missing
 
 ** if __name__ == "__main__" ถูกกำหนด # pragma: no cover
 เพื่อไม่ให้นับรวมใน Test Coverage **
